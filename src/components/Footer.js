@@ -42,26 +42,8 @@ const SocialIcon = styled.div`
   margin-right: 20px;
 `;
 
-const Center = styled.div`
-  flex: 1;
-  padding: 20px;
-`;
-
 const Title = styled.h3`
   margin-bottom: 30px;
-`;
-
-const List = styled.ul`
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-`;
-
-const ListItem = styled.li`
-  width: 50%;
-  margin-bottom: 10px;
 `;
 
 const Right = styled.div`
@@ -109,14 +91,14 @@ const Footer = () => {
       <Right>
         <Title>Contact</Title>
         <ContactItem>
-          <RoomIcon style={{ marginRight: "10px" }} /> 622 Dixie Path , South
-          Tobinchester 98336
+          <RoomIcon style={{ marginRight: "10px" }} /> 32 Norway Street , South
+          Man chester 98336
         </ContactItem>
         <ContactItem>
           <PhoneIcon style={{ marginRight: "10px" }} /> +1 234 56 78
         </ContactItem>
         <ContactItem>
-          <MailOutlinedIcon style={{ marginRight: "10px" }} /> contact@lama.dev
+          <MailOutlinedIcon style={{ marginRight: "10px" }} /> MERN@dev.com
         </ContactItem>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>
